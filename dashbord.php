@@ -380,7 +380,7 @@ else
 
                 <div class="p-2 my-flex">
                     <?php echo $get_file_size;?>
-                    <input type="text" id="myInput<?php echo $index;?>" style="width:5px;" value="<?php echo "http://mycodearea.000webhostapp.com/".$download_link;?>">
+                    <input type="text" id="myInput<?php echo $index;?>" style="width:10px;" value="<?php echo "http://mycodearea.000webhostapp.com/".$download_link;?>">
                     <button type="submit" onclick="myFunction<?php echo $count;?>()" style="margin-left: 10px;font-weight: 700;color: black;padding: 5px 20px 5px 20px;" name="delete_<?php echo $data['FileName'];?>" class="btn btn-light space btn-sm">Copy File Link</button>
                   <a href="<?php echo $download_link;?>"><button type="submit" style="margin-left: 10px;font-weight: 700;color: black; padding: 5px 27px 5px 25px;" name="<?php echo $data['FileName'];?>" class="btn btn-light  space btn-sm">Download</button></a>
                   <a href="<?php echo $delete_link;?>"><button type="submit" style="margin-left: 10px;font-weight: 700;color: black;padding: 5px 20px 5px 20px;" name="delete_<?php echo $data['FileName'];?>" class="btn btn-light space btn-sm">Delete</button></a>
